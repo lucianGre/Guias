@@ -84,6 +84,10 @@ Listar todas las ramas (tecla **q** para cerrar):
 ```bash
 git branch -a
 ```
+Volver a la rama anterior:
+```bash
+git switch -
+```
 Crear y subir la rama a GitHub:
 ```bash
 git push --set-upstream origin Lucian
