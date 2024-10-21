@@ -1,4 +1,4 @@
-# EpicFitApp
+# GitHub Básico
 ## Secret JSON
 Se ha generado un _Secret_ con el json para la conexión de la base de datos, cuyo archivo está ignorado y no está expuesto en el repositorio. Este archivo debe ser incluído de forma local en la raíz de la carpeta /app para que funcione correctamente la conexión con Firestore. Cuando se ejecuta la comprobación de la build, se incluye el json guardado como secreto de repositorio.
 
