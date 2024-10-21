@@ -39,7 +39,7 @@ Crear una clave SSH para conectarse desde el equipo al repositorio remoto (GitHu
 ```bash
 ssh-keygen
 ```
-1.1.Forma alternativa de crear una clave ed25519 con tu email
+1.1.Forma alternativa de  una clave ed25519 con tu email
 ```bash
   $ ssh-keygen -t ed25519 -C "email@email.com"
 ```
@@ -54,7 +54,7 @@ cat ~/.ssh/id_rsa.pub
 cat ~/.ssh/id_ed25519.pub
 ```
 5. En GitHub acceder a Settings > SSH and GPG Keys
-6. Crear una nueva clave haciendo click en _New SSH key_ y pegar el contenido de la misma.
+6.  una nueva clave haciendo click en _New SSH key_ y pegar el contenido de la misma.
 
 ### Configurar SSH en local
 1. Editar el archivo de configuración dentro del directorio del repositorio. Cuidado con tocar el archivo de config que es sensible.
@@ -75,6 +75,10 @@ ssh-add ~/.ssh/id_rsa
 Crear una rama:
 ```bash
 git branch nombre
+```
+Crear una rama con switch: -c crea la rama y switch te cambia a ella (al crear con branch necesitas 2 comandos para crear y pasarte a la nueva rama)
+```bash
+git switch -c nombreRama
 ```
 Listar todas las ramas (tecla **q** para cerrar):
 ```bash
