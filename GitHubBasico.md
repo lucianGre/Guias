@@ -165,7 +165,7 @@ Hacer push:
 ```bash
 git push
 ```
-Ver el estado de git local:
+Ver el estado de git local: (git status -s, vista simplificada del status)
 ```bash
 git status
 ```
