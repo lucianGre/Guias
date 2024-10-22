@@ -173,3 +173,7 @@ Ver el listado de commits (para salir pulsar la tecla **q**):
 ```bash
 git log
 ```
+log simplificado e incluye el indentificador del commit:
+```bash
+git log --oneline
+```
